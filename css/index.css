@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(36,53,63);
+}
+.title{
+    font-weight: 400;
+    color: rgb(23,162,184) !important;
+    font-size: 2.5rem;
+}
+
+.main{
+    width: 50%;
+ }
+
+.inputs{
+    border-color: white;
+    border-width: 1px;
+    background-color: transparent;
+}
+.inputs:focus{
+    border-color: rgb(23,162,184);
+    border-width: 1px;
+    outline: none;
+ }
+ .login-btn{
+    width: 100%;
+    color:rgb(23,162,184) ;
+    border: 1px solid rgb(23,162,184) ;
+    transition: all .5s;
+ }
+ .login-btn:hover{
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8;
+    color: white;
+ }
+
+ a.up-link{
+    text-decoration: none;
+    transition: all .4s;
+ }
+
+ a.up-link:hover{
+   text-decoration: underline;
+ }
+ 

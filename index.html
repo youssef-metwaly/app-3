@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+ 
+    <div class="main container shadow-lg px-5 py-5 mt-5">
+        <p class=" text-center title">Smart Login System</p>
+        <input type="email" id="email-login" placeholder=" Enter Your Email" class="w-100 py-2 rounded-2 my-2 text-white inputs">
+        <input type="password" id="pass-login" placeholder=" Enter Your password" class="w-100 py-2 rounded-2 my-2 text-white inputs">
+        <p class="text-danger text-center mt-2 mb-3 d-none" id="warning">Incorrect Email or Password</p>
+        <p class="text-danger text-center mt-2 mb-3 d-none" id="ok">All inputs is required</p>
+         <button type="button" class="login-btn bg-transparent py-2 fw-semibold rounded-2 mt-4" onclick="login()">Login</button>
+        <p class="text-center text-white mt-4">Don’t have an account? <a href="sineup.html" class="text-white up-link">Sine Up</a></p>
+    </div>
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+</html>

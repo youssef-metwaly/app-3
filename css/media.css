@@ -1,0 +1,19 @@
+@media screen and (max-width:900px) {
+    .main{
+        width: 90%;
+    }
+    .title{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:418px) {
+    .title{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:386px) {
+    .title{
+        font-size: 1.6rem;
+    }
+}
